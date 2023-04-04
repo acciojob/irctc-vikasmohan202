@@ -1,3 +1,6 @@
+
+
+
 package com.driver.controllers;
 
 
@@ -11,12 +14,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("passenger")
+// k
 public class PassengerController {
 
     @Autowired
     PassengerService passengerService;
 
     @PostMapping("/create")
+//     su
     public Integer registerPassenger(@RequestBody Passenger passenger){
         return passengerService.addPassenger(passenger);
     }

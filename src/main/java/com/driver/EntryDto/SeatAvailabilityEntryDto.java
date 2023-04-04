@@ -1,6 +1,3 @@
-
-
-
 package com.driver.EntryDto;
 
 
@@ -9,7 +6,7 @@ import com.driver.model.Station;
 public class SeatAvailabilityEntryDto {
 
     private int trainId;
-
+// n
 
     private Station fromStation;
 

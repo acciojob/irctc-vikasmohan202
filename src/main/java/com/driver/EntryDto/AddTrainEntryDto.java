@@ -6,7 +6,7 @@ import java.time.LocalTime;
 import java.util.List;
 
 public class AddTrainEntryDto {
-
+    // m
     private List<Station> stationRoute; //The items in the list denote the  order in which the train will move
 
     private LocalTime departureTime;

@@ -1,3 +1,4 @@
+
 package com.driver.services;
 
 
@@ -14,12 +15,9 @@ public class PassengerService {
 
     public Integer addPassenger(Passenger passenger){
         //Add the passenger Object in the passengerDb and return the passegnerId that has been returned
-//         Passenger passenger1 = new Passenger();
-//         passenger1.setName(passenger.getName());
-//         passenger1.setAge(passenger.getAge());
-//         passenger1.setBookedTickets(passenger.getBookedTickets());
-//         passenger1.setPassengerId(passenger.getPassengerId());
+
         passengerRepository.save(passenger);
+
         return passenger.getPassengerId();
     }
 
